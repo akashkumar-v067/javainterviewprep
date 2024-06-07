@@ -1,0 +1,14 @@
+server:
+  port : 8282
+  max-http-header-size: 30000
+  timezone: ${SERVER_TIMEZONE:IST}
+  servlet:
+    context-path: /lens
+
+  compression:
+    enabled: true
+    mime-types: application/json
+
+spring:
+  application:
+    name: Lens
